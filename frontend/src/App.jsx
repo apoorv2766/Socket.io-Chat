@@ -59,9 +59,12 @@ function App() {
           <div
             key={i}
             style={{
-              padding: "0.2rem",
-              margin: "0.5rem",
+              padding: "0.5rem",
+              width: "25%",
+              margin: "1rem",
               backgroundColor: "gray",
+              color: "white",
+              fontSize: "1.5rem",
             }}
           >
             {msg}
